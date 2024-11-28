@@ -1,12 +1,12 @@
 # Work and Mental Health
 
-📑 *Project Overview* 
+📑 *Project Overview*   
  This project analyzes the results of a survey of 5,000 employees from diverse regions, industries, ages, genders, and work experiences. The survey data, sourced from open platforms, investigates the relationships between various factors affecting work and mental health. The goal is to uncover correlations or prove their absence, visualize trends, and showcase different analytical tools and methods. 
 
-💡*Motivation*
+💡*Motivation*  
  This project was inspired by the growing recognition of the connection between work environment, workload, and mental health. With many workers shifting to remote or hybrid setups, understanding how different work conditions affect psychological well-being has never been more important.
 
-💾  *Data Sources*
+💾  *Data Sources*  
  Excel folder: "Impact_of_Remote_Work_on_Mental_Health"
  SQL folder: "Creating Tables"
 
@@ -15,7 +15,7 @@
 2. Study the effect of access to health resources on mental health.
 3. Examine the influence of physical activity on psychological well-being.
 4. Identify and interpret significant relationships based on survey data.  
-3. Visualize data and trends using SQL, Python, Excel and Tableau.
+5. Visualize data and trends using SQL, Python, Excel and Tableau.
 
 #### Tools Used 🛠️
 *SQL:*
@@ -24,15 +24,15 @@
   - Subqueries
   - Window Functions
   - CASE Statements
-  - CTEs
+  - CTEs  
 *Python:*
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
-  - Seaborn, Matplotlib
+  - Seaborn, Matplotlib  
 *Tableau:*
   - Quick Table Calculations
   - Parameters and Calculated Fields
-  - Dashboards and Stories
+  - Dashboards and Stories  
 *Excel:*
   - Pivot Tables
   - Charts
@@ -44,28 +44,34 @@
   📈 [Excel Data](excel/README.md): Raw data, pivot tables and charts.  
 
 #### Key Findings 🔬
+- **Distribution of Surveyed Employees:**
+ An uneven distribution of interviewed employees by age, with a certain preference for people older than middle age.
+ Details:    
+📁 [Excel](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/excel/Distribution%20of%20surveyed%20employees.xlsx)  
+🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Distribution%20of%20Surveyed%20Employees.sql)  
+🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Distribution%20Uniformity%20of%20Variables%20in%20the%20survey%20data.ipynb)
 - **Remote Work Satisfaction:**
  Remote work slightly improves satisfaction for women but shows no major impact on overall satisfaction.
 Women: 33.33% satisfied with remote work; Men: 32.02%; Non-binary/Prefer not to say: ~28%.  
 General satisfaction: 30.28%, dissatisfaction: 34.54%.
  Details:  
-📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/SatisfactionwithRemoteWork/LevelofSatisfactionbyparameters)  
-📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Satisfaction%20with%20Remote%20Work.twbx)  
-🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Satisfaction%20with%20Remote%20Work.sql)
+📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/SatisfactionwithRemoteWork/LevelofSatisfactionbyparameters)    
+📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Satisfaction%20with%20Remote%20Work.twbx)    
+🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Satisfaction%20with%20Remote%20Work.sql)  
 - **Work Life Balance:**
  Best balance: Age 51+ in hybrid work, in retail, IT, and education (best region: Asia).
 Potential bias due to sample representation.
  Details:  
-📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkLifeBalance_17298477708680/WLB)  
+📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkLifeBalance_17298477708680/WLB)    
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Work%20Life%20Balance.twbx)  
-🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Work%20Life%20Balance.sql)
+🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Work%20Life%20Balance.sql)  
 - **Work and Mental Health:**
  76.08% of respondents reported psychological issues, with onsite employees slightly more affected (77.03%).
 Access to mental health resources showed no direct correlation with mental health conditions.
  Details:  
 📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkandMentalHealth/WorkandMentalHealth)  
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Work%20and%20Mental%20Health.twbx)  
-🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Mental%20Health%20Problems%20and%20Mental%20Health%20Resources.sql)
+🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Mental%20Health%20Problems%20and%20Mental%20Health%20Resources.sql)  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Correlation%20between%20the%20variables%20of%20Mental%20Health%20Condition%20and%20Access%20to%20Mental%20Health%20Resources.ipynb)
 - **Working Hours:**
   Workers in healthcare report the highest working hours in Africa, while IT professionals work the most in Europe and North America. The manufacturing sector has the highest global average of weekly working hours (40.24), with South America leading at 41.82 hours. In contrast, Europe’s IT sector has the lowest average (40.20), emphasizing work-life balance and efficiency.
@@ -77,7 +83,7 @@ Access to mental health resources showed no direct correlation with mental healt
  Remote workers are the most active: 34.19% exercise daily.
 Weak negative correlation between physical activity and stress levels.
  Details:  
-🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Physical%20Activity%20and%20Sleep%20Quality.sql)
+🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Physical%20Activity%20and%20Sleep%20Quality.sql)  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Correlation%20between%20the%20variables%20​​of%20Physical%20Activity%20and%20the%20Level%20of%20Stress.ipynb)
 - **Impact of Work Location:** 
  No significant correlation between work location and indicators like work-life balance rating, stress level, productivity change, social isolation, physical activity, and sleep quality.
