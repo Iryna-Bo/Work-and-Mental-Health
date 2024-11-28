@@ -7,7 +7,7 @@
  This project was inspired by the growing recognition of the connection between work environment, workload, and mental health. With many workers shifting to remote or hybrid setups, understanding how different work conditions affect psychological well-being has never been more important.
 
 💾  *Data Sources*  
- Excel folder: "Impact_of_Remote_Work_on_Mental_Health"
+ Excel folder: "Impact_of_Remote_Work_on_Mental_Health"  
  SQL folder: "Creating Tables"
 
 ### Goals 📝 
@@ -24,20 +24,20 @@
   - Subqueries
   - Window Functions
   - CASE Statements
-  - CTEs  
+  - CTEs
 *Python:*
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
-  - Seaborn, Matplotlib  
+  - Seaborn, Matplotlib
 *Tableau:*
   - Quick Table Calculations
   - Parameters and Calculated Fields
-  - Dashboards and Stories  
+  - Dashboards and Stories
 *Excel:*
   - Pivot Tables
   - Charts
 
-#### Files and Folders  
+#### Files and Folders 📂 
   🗄️ [SQL Queries](sql/README.md): Scripts for data aggregation.  
   🐍 [Python Analysis](python/README.md): Statistical analysis and visualizations.  
   📊 [Tableau Dashboards](tableau/README.md): Interactive data visualizations.  
