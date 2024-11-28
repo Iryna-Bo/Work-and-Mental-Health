@@ -24,15 +24,15 @@
   - Subqueries
   - Window Functions
   - CASE Statements
-  - CTEs
+  - CTEs  
 *Python:*
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
-  - Seaborn, Matplotlib
+  - Seaborn, Matplotlib  
 *Tableau:*
   - Quick Table Calculations
   - Parameters and Calculated Fields
-  - Dashboards and Stories
+  - Dashboards and Stories  
 *Excel:*
   - Pivot Tables
   - Charts
