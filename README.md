@@ -3,47 +3,47 @@
 📑 Project Overview  
  This project analyzes the results of a survey of 5,000 employees from diverse regions, industries, ages, genders, and work experiences. The survey data, sourced from open platforms, investigates the relationships between various factors affecting work and mental health. The goal is to uncover correlations or prove their absence, visualize trends, and showcase different analytical tools and methods. 
 
-*💡Motivation*
+💡Motivation
  This project was inspired by the growing recognition of the connection between work environment, workload, and mental health. With many workers shifting to remote or hybrid setups, understanding how different work conditions affect psychological well-being has never been more important.
 ----------
-💾 Data Sources
+####💾 Data Sources
  Excel folder: "Impact_of_Remote_Work_on_Mental_Health"
  SQL folder: "Creating Tables"
 
-📝 Goals  
+###📝 Goals  
 1. Analyze the impact of work location, age, gender, work experience, region, and profession on psychological health and job satisfaction.
 2. Study the effect of access to health resources on mental health.
 3. Examine the influence of physical activity on psychological well-being.
 4. Identify and interpret significant relationships based on survey data.  
 3. Visualize data and trends using SQL, Python, Excel and Tableau.
 
-🛠️ Tools Used
-SQL:
+####🛠️ Tools Used
+*SQL:*
   - Aggregation Functions
   - Joins
   - Subqueries
   - Window Functions
   - CASE Statements
   - CTEs
-Python:
+*Python:*
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
   - Seaborn, Matplotlib
-Tableau:
+*Tableau:*
   - Quick Table Calculations
   - Parameters and Calculated Fields
   - Dashboards and Stories
-Excel:
+*Excel:*
   - Pivot Tables
   - Charts
 
-📂 Files and Folders  
+####📂 Files and Folders  
   🗄️ [SQL Queries](sql/README.md): Scripts for data aggregation.  
   🐍 [Python Analysis](python/README.md): Statistical analysis and visualizations.  
   📊 [Tableau Dashboards](tableau/README.md): Interactive data visualizations.  
   📈 [Excel Data](excel/README.md): Raw data, pivot tables and charts.  
 
-🔬 Key Findings  
+####🔬 Key Findings  
 - **Remote Work Satisfaction:**
 Remote work slightly improves satisfaction for women but shows no major impact on overall satisfaction.
 Women: 33.33% satisfied with remote work; Men: 32.02%; Non-binary/Prefer not to say: ~28%.  
@@ -86,7 +86,7 @@ Details:
 
 **🧮 For the full report**, read the [Detailed Conclusions](Conclusions.md).  
 -----------
-####🌍 Broader Implications####
+####🌍 Broader Implications
  This research, while limited in scope, provides actionable insights for employers and policymakers:
 Workplace Policies: Use the findings to shape flexible work arrangements, mental health support programs, and workload planning tailored to regional and sector-specific needs.
 Future Research: Address gaps such as the underrepresentation of certain demographic groups to obtain more accurate results.
