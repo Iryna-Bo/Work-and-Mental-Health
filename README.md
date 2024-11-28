@@ -3,9 +3,9 @@
 📑 Project Overview  
  This project analyzes the results of a survey of 5,000 employees from diverse regions, industries, ages, genders, and work experiences. The survey data, sourced from open platforms, investigates the relationships between various factors affecting work and mental health. The goal is to uncover correlations or prove their absence, visualize trends, and showcase different analytical tools and methods. 
 
-💡Motivation
+*💡Motivation*
  This project was inspired by the growing recognition of the connection between work environment, workload, and mental health. With many workers shifting to remote or hybrid setups, understanding how different work conditions affect psychological well-being has never been more important.
-
+----------
 💾 Data Sources
  Excel folder: "Impact_of_Remote_Work_on_Mental_Health"
  SQL folder: "Creating Tables"
@@ -85,8 +85,8 @@ Details:
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Work%20Location%20Impact%20Analysis.ipynb)
 
 **🧮 For the full report**, read the [Detailed Conclusions](Conclusions.md).  
-
-🌍 Broader Implications
+-----------
+####🌍 Broader Implications####
  This research, while limited in scope, provides actionable insights for employers and policymakers:
 Workplace Policies: Use the findings to shape flexible work arrangements, mental health support programs, and workload planning tailored to regional and sector-specific needs.
 Future Research: Address gaps such as the underrepresentation of certain demographic groups to obtain more accurate results.
