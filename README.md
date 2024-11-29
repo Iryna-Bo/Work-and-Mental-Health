@@ -17,7 +17,7 @@
 4. Identify and interpret significant relationships based on survey data.  
 5. Visualize data and trends using SQL, Python, Excel and Tableau.
 
-#### Tools Used 🛠️
+#### Tools Used 🛠️  
 *SQL:*
   - Aggregation Functions
   - Joins
@@ -45,7 +45,7 @@
 
 #### Key Findings 🔬
 - **Distribution of Surveyed Employees:**
- An uneven distribution of interviewed employees by age, with a certain preference for people older than middle age.
+ An uneven distribution of interviewed employees by age, with a certain preference for people older than middle age.  
  Details:    
 📁 [Excel](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/excel/Distribution%20of%20surveyed%20employees.xlsx)  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Distribution%20of%20Surveyed%20Employees.sql)  
@@ -53,49 +53,49 @@
 - **Remote Work Satisfaction:**
  Remote work slightly improves satisfaction for women but shows no major impact on overall satisfaction.
 Women: 33.33% satisfied with remote work; Men: 32.02%; Non-binary/Prefer not to say: ~28%.  
-General satisfaction: 30.28%, dissatisfaction: 34.54%.
- Details:  
+General satisfaction: 30.28%, dissatisfaction: 34.54%.    
+Details:  
 📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/SatisfactionwithRemoteWork/LevelofSatisfactionbyparameters)    
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Satisfaction%20with%20Remote%20Work.twbx)    
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Satisfaction%20with%20Remote%20Work.sql)  
 - **Work Life Balance:**
  Best balance: Age 51+ in hybrid work, in retail, IT, and education (best region: Asia).
-Potential bias due to sample representation.
- Details:  
+Potential bias due to sample representation.  
+Details:  
 📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkLifeBalance_17298477708680/WLB)    
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Work%20Life%20Balance.twbx)  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Work%20Life%20Balance.sql)  
 - **Work and Mental Health:**
  76.08% of respondents reported psychological issues, with onsite employees slightly more affected (77.03%).
-Access to mental health resources showed no direct correlation with mental health conditions.
- Details:  
+Access to mental health resources showed no direct correlation with mental health conditions.  
+Details:  
 📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkandMentalHealth/WorkandMentalHealth)  
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Work%20and%20Mental%20Health.twbx)  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Mental%20Health%20Problems%20and%20Mental%20Health%20Resources.sql)  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Correlation%20between%20the%20variables%20of%20Mental%20Health%20Condition%20and%20Access%20to%20Mental%20Health%20Resources.ipynb)
 - **Working Hours:**
-  Workers in healthcare report the highest working hours in Africa, while IT professionals work the most in Europe and North America. The manufacturing sector has the highest global average of weekly working hours (40.24), with South America leading at 41.82 hours. In contrast, Europe’s IT sector has the lowest average (40.20), emphasizing work-life balance and efficiency.
-  Details:  
+  The manufacturing sector has the highest global average of weekly working hours (40.24), with South America leading at 41.82 hours. In contrast, Europe’s IT sector has the lowest average (40.20), emphasizing work-life balance and efficiency.  
+Details:  
 📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkingHours_17316627781430/avg_work_h)  
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Working%20Hours.twbx)  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Working%20Hours.sql)
 - **Physical Activity:**
  Remote workers are the most active: 34.19% exercise daily.
-Weak negative correlation between physical activity and stress levels.
- Details:  
+Weak negative correlation between physical activity and stress levels.  
+Details:  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Physical%20Activity%20and%20Sleep%20Quality.sql)  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Correlation%20between%20the%20variables%20​​of%20Physical%20Activity%20and%20the%20Level%20of%20Stress.ipynb)
 - **Impact of Work Location:** 
- No significant correlation between work location and indicators like work-life balance rating, stress level, productivity change, social isolation, physical activity, and sleep quality.
+ No significant correlation between work location and indicators like work-life balance rating, stress level, productivity change, social isolation, physical activity, and sleep quality.  
  Details:  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Work%20Location%20Impact%20Analysis.ipynb)
 
 **🧮 For the full report**, read the [Detailed Conclusions](Conclusions.md).  
 
 #### Broader Implications 🌍
- This research, while limited in scope, provides actionable insights for employers and policymakers:
-Workplace Policies: Use the findings to shape flexible work arrangements, mental health support programs, and workload planning tailored to regional and sector-specific needs.
-Future Research: Address gaps such as the underrepresentation of certain demographic groups to obtain more accurate results.
+ This research, while limited in scope, provides actionable insights for employers and policymakers:  
+Workplace Policies: Use the findings to shape flexible work arrangements, mental health support programs, and workload planning tailored to regional and sector-specific needs.  
+Future Research: Address gaps such as the underrepresentation of certain demographic groups to obtain more accurate results.  
 For a detailed view of the methodology and analysis, refer to the respective files in the Python, SQL, Excel and Tableau folders.
 ## How to Access
 📂 [GitHub Repository](https://github.com/Iryna-Bo/Work-and-Mental-Health)
