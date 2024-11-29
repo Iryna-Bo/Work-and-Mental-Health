@@ -17,24 +17,24 @@
 4. Identify and interpret significant relationships based on survey data.  
 5. Visualize data and trends using SQL, Python, Excel and Tableau.
 
-#### Tools Used 🛠️  
+### Tools Used 🛠️
 
-*SQL:*
+- **SQL**:
   - Aggregation Functions
   - Joins
   - Subqueries
   - Window Functions
   - CASE Statements
-  - CTEs  
-*Python:*
+  - CTEs
+- **Python**:
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
-  - Seaborn, Matplotlib  
-*Tableau:*
+  - Seaborn, Matplotlib
+- **Tableau**:
   - Quick Table Calculations
   - Parameters and Calculated Fields
-  - Dashboards and Stories  
-*Excel:*
+  - Dashboards and Stories
+- **Excel**:
   - Pivot Tables
   - Charts
 
