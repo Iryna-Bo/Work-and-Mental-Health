@@ -18,22 +18,23 @@
 5. Visualize data and trends using SQL, Python, Excel and Tableau.
 
 #### Tools Used 🛠️  
--*SQL:*
+
+*SQL:*
   - Aggregation Functions
   - Joins
   - Subqueries
   - Window Functions
   - CASE Statements
   - CTEs  
--*Python:*
+*Python:*
   - Pandas, NumPy
   - Statsmodels (scipy.stats)
   - Seaborn, Matplotlib  
--*Tableau:*
+*Tableau:*
   - Quick Table Calculations
   - Parameters and Calculated Fields
   - Dashboards and Stories  
--*Excel:*
+*Excel:*
   - Pivot Tables
   - Charts
 
