@@ -15,7 +15,7 @@ This section contains Jupyter Notebooks that provide detailed analysis and visua
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-file_path='C:/Users/oneli/Portfolio/Impact_of_Remote_Work_on_Mental_Health.xlsx'
+file_path='excel/Impact_of_Remote_Work_on_Mental_Health.xlsx'
 data=pd.read_excel(file_path)
 sns.boxplot(x=data['Age'])
 plt.title('Boxplot of Employee Age')
