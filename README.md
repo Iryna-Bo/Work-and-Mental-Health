@@ -43,6 +43,8 @@
   🐍 [Python Analysis](python/README.md): Statistical analysis and visualizations.  
   📊 [Tableau Dashboards](tableau/README.md): Interactive data visualizations.  
   📈 [Excel Data](excel/README.md): Raw data, pivot tables and charts.  
+  🔍 [Images](images/README.md)  
+
 
 #### Key Findings 🔬
 - **Distribution of Surveyed Employees:**
