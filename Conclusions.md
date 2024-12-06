@@ -125,7 +125,7 @@ Pearson Сorrelation Сoefficient: -0.004530262491804627
 
 *🔍Below is a Butterfly Chart (created in Tableau) illustrating the relationship between Mental Health Resources and Mental Health Problems*  
 
-<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="1000" high="800"/>    
+<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="1000" high="1000"/>    
 
 📌 For more details:  
 🐍Python: *"Correlation between Mental Health Condition and Access to Mental Health Resources"*  
@@ -144,7 +144,7 @@ For this purpose I used pd.crosstab and sns.heatmap in Python.
 -Hybrid workers had a higher likelihood of reporting decreased productivity. However, remote workers are not so far also.    
 *🔍Below is a Heatmap (created in Python) illustrating the relationship between Work Location and Productivity Change*  
 
-<img src="images/Work%20Location%20and%20Productivity%20Change.png" alt="Work Location and Productivity Change" width="600"/>      
+<img src="images/Work%20Location%20and%20Productivity%20Change.png" alt="Work Location and Productivity Change" width="500"/>      
 
 📌 For more details:    
 🐍Python: *"Work Location Impact Analysis"*  
@@ -154,7 +154,7 @@ For this purpose I used pd.crosstab and sns.heatmap in Python.
 
 *This project was conducted for educational purposes, demonstrating practical data analysis skills rather than striving for perfect accuracy. Despite some limitations in the data, the project successfully applied various analytical methods and visualization tools to explore survey data related to work environments and employee well-being. Key insights include varied satisfaction levels with remote work, significant differences in work-life balance across age groups and work locations, and the prevalence of psychological issues among employees. Notably, no substantial correlation was found between access to mental health resources and psychological problems, indicating that availability does not necessarily equate to utilization. Patterns observed, such as the impact of work location on reported work-life balance and productivity changes, offer interesting points for further exploration.*  
 
-💡 Future Directions  
+### 💡Future Directions  
 
 *To improve the reliability and depth of future research, several considerations could be made:*  
 
