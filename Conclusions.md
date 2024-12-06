@@ -39,7 +39,7 @@ However, given that this analysis is for educational purposes, the quality of th
 
 *🔍The Stacked Horizontal Bar Chart "Employee Satisfaction with Remote Work by Job Role" (created in Tableau) below illustrates the proportion of Satisfaction Levels across different Job Roles, highlighting slight differences and general trends.*  
 
-<img src="images/Employee%20Satisfaction%20with%20Remote%20Work%20by%20Job%20Role.png" alt="Employee Satisfaction with Remote Work by Job Role" width="1000" high="700"/>    
+<img src="images/Employee%20Satisfaction%20with%20Remote%20Work%20by%20Job%20Role.png" alt="Employee Satisfaction with Remote Work by Job Role" width="1000" high="800"/>    
 
 
 📌 For more details:  
@@ -125,7 +125,7 @@ Pearson Сorrelation Сoefficient: -0.004530262491804627
 
 *🔍Below is a Butterfly Chart (created in Tableau) illustrating the relationship between Mental Health Resources and Mental Health Problems*  
 
-<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="1000" high="700"/>    
+<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="1000" high="800"/>    
 
 📌 For more details:  
 🐍Python: *"Correlation between Mental Health Condition and Access to Mental Health Resources"*  
@@ -154,9 +154,9 @@ For this purpose I used pd.crosstab and sns.heatmap in Python.
 
 *This project was conducted for educational purposes, demonstrating practical data analysis skills rather than striving for perfect accuracy. Despite some limitations in the data, the project successfully applied various analytical methods and visualization tools to explore survey data related to work environments and employee well-being. Key insights include varied satisfaction levels with remote work, significant differences in work-life balance across age groups and work locations, and the prevalence of psychological issues among employees. Notably, no substantial correlation was found between access to mental health resources and psychological problems, indicating that availability does not necessarily equate to utilization. Patterns observed, such as the impact of work location on reported work-life balance and productivity changes, offer interesting points for further exploration.*  
 
-💡 Future Directions:  
+💡 Future Directions  
 
-**To improve the reliability and depth of future research, several considerations could be made:**  
+*To improve the reliability and depth of future research, several considerations could be made:*  
 
 -**Enhanced Survey Design:** Incorporate more specific questions that explore job satisfaction drivers, reasons for dissatisfaction (e.g., work environment, pay), and the use of workplace resources.  
 
@@ -164,4 +164,4 @@ For this purpose I used pd.crosstab and sns.heatmap in Python.
 
 -**Additional Data Analysis:** Apply advanced statistical methods and machine learning algorithms to further explore complex relationships and potential causal factors within the data.  
 
-These improvements could provide more accurate insights and make future studies more robust, contributing valuable findings for better understanding work conditions and employee well-being.
+*These improvements could provide more accurate insights and make future studies more robust, contributing valuable findings for better understanding work conditions and employee well-being.*
