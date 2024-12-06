@@ -9,7 +9,7 @@ Kolmogorov-Smirnov Test was used to check the normality of numerical data (e.g.,
 Coefficient of Variation offered a way to measure relative variability in the data.
 ⚠️The analysis revealed an uneven distribution of interviewed employees only by age, with a certain preference for people older than middle age. The category of employees aged 22-30 was the least represented in the survey. This imbalance could introduce slight errors in the following analysis. However, given that this analysis is for educational purposes, the quality of the survey data is not critical.  
 🔍A histogram (created in Python) showing the age distribution to highlight this imbalance is below  
-![Employee distribution by age group](images/Distribution%20of%20Employees%20by%20Age%20Groups.png)  
+<img src="images/Distribution%20of%20Employees%20by%20Age%20Groups.png" alt="Employee Distribution by Age Group" width="600"/>  
 
 📌 For more details:
 
