@@ -1,21 +1,21 @@
 # Detailed Conclusions📜  
 
-First of all, it is worth noting that I first analyzed the sample to understand whether the distribution of surveyed employees by age, gender, region, work location, industry, and profession is even. To do this, I used charting (Histogram), as well as statistical functions (Chi-square Test, Kolmogorov-Smirnov Test for numerical data (Age), and Coefficient of Variation) in Python.
+First of all, it is worth noting that I analyzed the survey sample to assess the distribution of key variables using pivot tables, charts, and statistical tests (Chi-square, Kolmogorov-Smirnov, and Coefficient of Variation) in Excel and Python.  
 
-*Methodology and Preliminary Analysis*
-Histogram provided a visual representation of the data distribution.
-Chi-square Test helped identify significant differences between observed and expected distributions for categorical variables.
-Kolmogorov-Smirnov Test was used to check the normality of numerical data (e.g., Age).
-Coefficient of Variation offered a way to measure relative variability in the data.
+*Methodology and Preliminary Analysis*  
+Histogram provided a visual representation of the data distribution.  
+Chi-square Test helped identify significant differences between observed and expected distributions for categorical variables.  
+Kolmogorov-Smirnov Test was used to check the normality of numerical data (e.g., Age).  
+Coefficient of Variation offered a way to measure relative variability in the data.  
 
 ⚠️The analysis revealed an **uneven distribution of interviewed employees only by age**, with a certain preference for people older than middle age.  
 The category of employees **aged 22-30** was the least represented in the survey.  
 This imbalance could introduce slight errors in the following analysis.  
 However, given that this analysis is for educational purposes, the quality of the survey data is not critical.  
 
-*🔍A Histogram (created in Python) showing the age distribution to highlight this imbalance is below*  
+*🔍Below is a Histogram (created in Python) illustrating the age distribution and highlighting the imbalance*  
 
-<img src="images/Distribution%20of%20Employees%20by%20Age%20Groups.png" alt="Employee Distribution by Age Group" width="600"/>  
+<img src="images/Distribution%20of%20Employees%20by%20Age%20Groups.png" alt="Bar chart showing age distribution of employees, highlighting an uneven distribution with fewer younger employees" width="600"/>  
 
 📌 For more details:  
 🐍Python: *"Distribution Uniformity of Variables in the Survey Data"*  
@@ -26,33 +26,7 @@ However, given that this analysis is for educational purposes, the quality of th
 
 ## Key Insights from the Analysis  
 
-### 1. Working Hours  
-
-*Highest Workload overall:*  
--Manufacturing: **40.24 hours/week**
--Healthcare: **40.07 hours/week**  
-
-*Lowest Workload overall:*  
--Trade: **39.15 hours/week**  
-
-*Regional Trends:*
--Africa: Healthcare
--Asia: Education
--Europe: IT
--North America: IT
--Oceania: Consulting
--South America: Manufacturing  
-
-*🔍A Bubble Chart "Industries with highest average working hours per week by region" (created in Tableau) is below*  
-
-<img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="500"/>  
-
-📌 For more details:    
-📊Tableau: *"Working Hours"*  
-🗄️SQL: *"Working Hours"*  
-
-
-### 2. Satisfaction with Remote Work  
+### 1. Satisfaction with Remote Work  
 
 *Satisfaction Levels by Gender:*  
 -Women: **33.33%**  
@@ -63,9 +37,9 @@ However, given that this analysis is for educational purposes, the quality of th
 -Satisfied Employees: **30.28%**  
 -Dissatisfied Employees: **34.54%**  
 
-*🔍A Stacked Horizontal Bar Chart "Employee Satisfaction with Remote Work by Job Role" (created in Tableau) is below*  
+*🔍The Stacked Horizontal Bar Chart "Employee Satisfaction with Remote Work by Job Role" (created in Tableau) below illustrates the proportion of Satisfaction Levels across different Job Roles, highlighting slight differences and general trends.*  
 
-<img src="images/Employee%20Satisfaction%20with%20Remote%20Work%20by%20Job%20Role.png" alt="Employee Satisfaction with Remote Work by Job Role" width="600" high="400"/>    
+<img src="images/Employee%20Satisfaction%20with%20Remote%20Work%20by%20Job%20Role.png" alt="Employee Satisfaction with Remote Work by Job Role" width="1000" high="700"/>    
 
 
 📌 For more details:  
@@ -73,14 +47,14 @@ However, given that this analysis is for educational purposes, the quality of th
 🗄️SQL: *"Satisfaction with Remote Work"*    
 
 
-### 3. Work Life Balance  
+### 2. Work Life Balance  
 
 *The best work-life balance was reported by:*  
--Employees **aged 51+** working in hybrid locations in retail, IT, and education.  
--Regionally, Asia showed the highest balance.  
+-Employees **aged 51+** working in hybrid locations in Retail, IT, and Education.  
+-Regionally, **Asia** showed the highest balance.  
 ⚠️However, these conclusions should be interpreted with caution due to **potential sampling errors**.    
 
-*🔍A Square Plot "Work Life Balance Rating by Work Location" (created in Tableau) is below*    
+*🔍Below is a square plot (created in Tableau) showing the Work Life Balance Rating by Work Location*    
 
 <img src="images/Work%20Life%20Balance%20Rating%20by%20Work%20Location.png" alt="Work Life Balance Rating by Work Location" width="500"/>  
 
@@ -88,14 +62,37 @@ However, given that this analysis is for educational purposes, the quality of th
 📊Tableau: *"Work Life Balance"*    
 🗄️SQL: *"Work Life Balance"*  
 
+### 3. Working Hours  
+
+*Highest Workload overall:*  
+-Manufacturing: **40.24 hours/week**  
+-Healthcare: **40.07 hours/week**  
+
+*Lowest Workload overall:*  
+-Trade: **39.15 hours/week**  
+
+*Regional Trends:*  
+-Africa: Healthcare  
+-Asia: Education  
+-Europe: IT  
+-North America: IT  
+-Oceania: Consulting  
+-South America: Manufacturing  
+
+*🔍Below is a Bubble Chart (created in Tableau) showing the Industries with highest average Working Hours per week by Region*  
+
+<img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="500"/>  
+
+📌 For more details:    
+📊Tableau: *"Working Hours"*  
+🗄️SQL: *"Working Hours"*  
 
 ### 4. Physical Activity  
 
 Employees in Remote Work Locations are the most physically active, with **34.19%** exercising daily.  
 
 💡A **weak negative correlation between physical activity and stress levels** was identified.  
-*To check the correlation between the values ​​of physical activity and the level of stress, I used the Pearson Correlation Coefficient.*:  
-The Code (written in Python):  
+*The code below calculates the Pearson Correlation Coefficient to assess the relationship between Physical Activity and Stress Levels:*  
 
 ```python
 import pandas as pd
@@ -126,7 +123,7 @@ Pearson Сorrelation Сoefficient: -0.004530262491804627
 -Gender: Men report the highest levels (**78.17%**); least affected are those who did not specify gender (**75.2%**).  
 -No significant correlation was found between access to mental health resources and psychological problems. This might be because the availability of resources does not guarantee their usage.  
 
-*🔍A Butterfly Chart "Mental Health Resources and Mental Health Problems" (created in Tableau) is below*  
+*🔍Below is a Butterfly Chart (created in Tableau) illustrating the relationship between Mental Health Resources and Mental Health Problems*  
 
 <img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="1000" high="700"/>    
 
@@ -142,10 +139,10 @@ An analysis of work location (remote, onsite, hybrid) showed no statistically si
 For this purpose I used pd.crosstab and sns.heatmap in Python.
 
 *Notable patterns:*    
--Remote workers were more likely than hybrid and office workers to report the lowest work-life balance scores ("1").  
+-Remote workers were more likely than hybrid and office workers to report the lowest work-life balance scores (**"1"**).  
 
 -Hybrid workers had a higher likelihood of reporting decreased productivity. However, remote workers are not so far also.    
-*🔍A Hit Map "Work Location and Productivity Change" (created in Python) is below*  
+*🔍Below is a Heatmap (created in Python) illustrating the relationship between Work Location and Productivity Change*  
 
 <img src="images/Work%20Location%20and%20Productivity%20Change.png" alt="Work Location and Productivity Change" width="600"/>      
 
@@ -155,12 +152,16 @@ For this purpose I used pd.crosstab and sns.heatmap in Python.
 
 ## Educational Context and Future Directions    
 
-*This project was conducted for educational purposes, demonstrating practical data analysis skills rather than striving for perfect accuracy. Despite some limitations in the data, the project successfully applied various analytical methods and visualization tools.*  
+*This project was conducted for educational purposes, demonstrating practical data analysis skills rather than striving for perfect accuracy. Despite some limitations in the data, the project successfully applied various analytical methods and visualization tools to explore survey data related to work environments and employee well-being. Key insights include varied satisfaction levels with remote work, significant differences in work-life balance across age groups and work locations, and the prevalence of psychological issues among employees. Notably, no substantial correlation was found between access to mental health resources and psychological problems, indicating that availability does not necessarily equate to utilization. Patterns observed, such as the impact of work location on reported work-life balance and productivity changes, offer interesting points for further exploration.*  
 
-💡 Improvements for Future Research:  
+💡 Future Directions:  
 
-**Enhanced survey design: Include questions about:**  
--Factors influencing motivation and satisfaction.  
--Specific reasons for dissatisfaction (e.g., work environment, pay).  
--Access to and utilization of workplace resources.  
--Balanced sampling: Target a more diverse and representative sample across all demographics.
+**To improve the reliability and depth of future research, several considerations could be made:**  
+
+-**Enhanced Survey Design:** Incorporate more specific questions that explore job satisfaction drivers, reasons for dissatisfaction (e.g., work environment, pay), and the use of workplace resources.  
+
+-**Balanced Sampling:** Aim for a more diverse and representative sample to better reflect various demographic groups, particularly those underrepresented in current data.  
+
+-**Additional Data Analysis:** Apply advanced statistical methods and machine learning algorithms to further explore complex relationships and potential causal factors within the data.  
+
+These improvements could provide more accurate insights and make future studies more robust, contributing valuable findings for better understanding work conditions and employee well-being.
