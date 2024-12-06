@@ -92,9 +92,10 @@ Coefficient of Variation offered a way to measure relative variability in the da
 
 Employees in remote work locations are the most physically active, with 34.19% exercising daily.  
 
-A **weak negative correlation between physical activity and stress levels** was identified (Pearson Сorrelation Сoefficient: -0.004530262491804627).  
+A **weak negative correlation between physical activity and stress levels** was identified.  
 *To check the correlation between the values ​​of physical activity and the level of stress, I used the Pearson Correlation Coefficient.*:  
-The Code (created using Python Programming Language) is below  
+The Code (written in Python):  
+
 ```python
 import pandas as pd
 data = pd.read_excel('excel/Correlation.xlsx')
@@ -102,9 +103,12 @@ x = data['column_x'].values #x(Physical_Activity): 1-None, 2-Weekly, 3-Daily
 y = data['column_y'].values #y(Stress_Level): 1-Low, 2-Medium, 3-High
 import numpy as np
 correlation = np.corrcoef(x, y)[0, 1]
-print("Pearson Сorrelation Сoefficient:", correlation)```  
+print("Pearson Сorrelation Сoefficient:", correlation)
+Sample Output:
+Pearson Сorrelation Сoefficient: -0.004530262491804627
+```  
 
-📌 For more details:
+📌 For more details:  
 🗄️SQL: "Physical Activity and Sleep Quality"  
 🐍Python: "Correlation between the variables of Physical Activity and the Level of Stress".  
 
