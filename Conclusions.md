@@ -102,7 +102,7 @@ x = data['column_x'].values #x(Physical_Activity): 1-None, 2-Weekly, 3-Daily
 y = data['column_y'].values #y(Stress_Level): 1-Low, 2-Medium, 3-High
 import numpy as np
 correlation = np.corrcoef(x, y)[0, 1]
-print("Pearson Сorrelation Сoefficient:", correlation)  
+print("Pearson Сorrelation Сoefficient:", correlation)```  
 
 📌 For more details:
 🗄️SQL: "Physical Activity and Sleep Quality"  
