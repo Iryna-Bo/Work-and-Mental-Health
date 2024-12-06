@@ -40,9 +40,9 @@ Trade: 39.15 hours/week
 -Oceania: Consulting
 -South America: Manufacturing  
 
-🔍A visualisation (created in Tableau) is below  
+*🔍A visualisation (created in Tableau) is below*  
 
-<img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="400"/>  
+<img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="500"/>  
 
 📌 For more details:    
 📊Tableau: "Working Hours"  
@@ -74,9 +74,9 @@ Employees aged 51+ working in hybrid locations in retail, IT, and education.
 Regionally, Asia showed the highest balance.
 However, these conclusions should be interpreted with caution due to potential sampling errors.  
 
-🔍A visualisation (created in Tableau) is below  
+*🔍A visualisation (created in Tableau) is below*  
 
-<img src="images/Work%20Life%20Balance%20Rating%20by%20Work%20Location.png" alt="Work Life Balance Rating by Work Location" width="400"/>  
+<img src="images/Work%20Life%20Balance%20Rating%20by%20Work%20Location.png" alt="Work Life Balance Rating by Work Location" width="500"/>  
 
 📌 For more details:  
 
@@ -99,9 +99,9 @@ Professions most affected: Data Scientists (remote, 84.65%); least affected: Mar
 Gender: Men report the highest levels (78.17%); least affected are those who did not specify gender (75.2%).
 No significant correlation was found between access to mental health resources and psychological problems. This might be because the availability of resources does not guarantee their usage.  
 
-🔍A visualisation (created in Tableau) is below  
+*🔍A visualisation (created in Tableau) is below*  
 
-<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="600"/>    
+<img src="images/Mental%20Health%20Resources%20and%20Mental%20Health%20Problems.png" alt="Mental Health Resources and Mental Health Problems" width="800"/>    
 
 📌 For more details:  
 
@@ -115,9 +115,10 @@ An analysis of work location (remote, onsite, hybrid) showed no statistically si
 
 *Notable patterns:*  
 
--Remote workers reported the lowest work-life balance scores ('1').
+-Remote workers reported the lowest work-life balance scores ('1').  
+
 -Hybrid workers had a higher likelihood of reporting decreased productivity. However, remote workers are not so far also.  
-🔍A hit map (created in Python) is below  
+*🔍A hit map (created in Python) is below*  
 
 <img src="images/Work%20Location%20and%20Productivity%20Change.png" alt="Work Location and Productivity Change" width="600"/>    
 
