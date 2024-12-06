@@ -7,53 +7,55 @@ Histogram provided a visual representation of the data distribution.
 Chi-square Test helped identify significant differences between observed and expected distributions for categorical variables.
 Kolmogorov-Smirnov Test was used to check the normality of numerical data (e.g., Age).
 Coefficient of Variation offered a way to measure relative variability in the data.
-⚠️The analysis revealed an uneven distribution of interviewed employees only by age, with a certain preference for people older than middle age. The category of employees aged 22-30 was the least represented in the survey. This imbalance could introduce slight errors in the following analysis. However, given that this analysis is for educational purposes, the quality of the survey data is not critical.  
-🔍A histogram (created in Python) showing the age distribution to highlight this imbalance is below  
+
+⚠️The analysis revealed an <u>uneven distribution of interviewed employees only by age</u>, with a certain preference for people older than middle age. The category of employees aged 22-30 was the least represented in the survey. This imbalance could introduce slight errors in the following analysis. However, given that this analysis is for educational purposes, the quality of the survey data is not critical.  
+
+*🔍A histogram (created in Python) showing the age distribution to highlight this imbalance is below*  
 <img src="images/Distribution%20of%20Employees%20by%20Age%20Groups.png" alt="Employee Distribution by Age Group" width="600"/>  
 
-📌 For more details:
+📌 For more details:  
+🐍Python: "Distribution Uniformity of Variables in the Survey Data"  
+🗄️SQL: "Distribution of Surveyed Employees"  
+📈Excel: "Distribution of Surveyed Employees"  
 
-Python: "Distribution Uniformity of Variables in the Survey Data"
-SQL: "Distribution of Surveyed Employees"
-Excel: "Distribution of Surveyed Employees"
 💡 Suggestions: In the future, ensuring a more balanced sample, particularly across underrepresented groups (e.g., younger employees), would enhance the validity of the results.
 
 ## Key Insights from the Analysis  
 
-### 1. Working Hours
-Highest Workload:
+### <u>1. Working Hours</u>  
 
+*Highest Workload:*  
 Manufacturing: 40.24 hours/week
-Healthcare: 40.07 hours/week
-Lowest Workload:
+Healthcare: 40.07 hours/week  
 
-Trade: 39.15 hours/week
-Regional Trends:
+*Lowest Workload:*
+Trade: 39.15 hours/week  
 
-Africa: Healthcare
-Asia: Education
-Europe: IT
-North America: IT
-Oceania: Consulting
-South America: Manufacturing  
-
-📌 For more details:
-
-📊Tableau: "Working Hours"
-🗄️SQL: "Working Hours"  
+*Regional Trends:*
+-Africa: Healthcare
+-Asia: Education
+-Europe: IT
+-North America: IT
+-Oceania: Consulting
+-South America: Manufacturing  
 
 🔍A visualisation (created in Tableau) is below  
-![Industries with highest average working hours per week by region](images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png)
+<img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="600"/>  
 
-### 2. Satisfaction with Remote Work
-Satisfaction Levels by Gender:
+📌 For more details:  
+📊Tableau: "Working Hours"  
+🗄️SQL: "Working Hours"  
+
+### 2. Satisfaction with Remote Work  
+
+*Satisfaction Levels by Gender:*  
 
 Women: 33.33%
 Men: 32.02%
 Non-binary/Prefer not to say: 27.93% and 27.51% respectively
 General Trends:
 
-Satisfied Employees: 30.28%
+Satisfied Employees: 30.28%  
 Dissatisfied Employees: 34.54%  
 
 📌 For more details:  
