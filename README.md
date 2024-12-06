@@ -43,7 +43,9 @@
   🐍 [Python Analysis](python/README.md): Statistical analysis and visualizations.  
   📊 [Tableau Dashboards](tableau/README.md): Interactive data visualizations.  
   📈 [Excel Data](excel/README.md): Raw data, pivot tables and charts.  
-  🔍 [Images](images/README.md)  
+  🔍 [Images for visualisation](images/README.md)  
+
+  💡*Each folder contains a README file that provides a description of its contents.*
 
 
 #### Key Findings 🔬
