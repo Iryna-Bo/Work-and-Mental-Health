@@ -86,7 +86,7 @@ Details:
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Working%20Hours.sql)
 - **Physical Activity:**
  Remote workers are the most active: 34.19% exercise daily.
-Weak negative correlation between physical activity and stress levels.  
+Extremely weak negative correlation between physical activity and stress levels.  
 Details:  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Physical%20Activity%20and%20Sleep%20Quality.sql)  
 🐍 [Python](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/python/Correlation%20between%20the%20variables%20​​of%20Physical%20Activity%20and%20the%20Level%20of%20Stress.ipynb)
