@@ -7,7 +7,8 @@ This section contains Jupyter Notebooks that provide detailed analysis and visua
 - `Correlation between the variables of Mental Health Condition and Access to Mental Health Resources.ipynb`: Investigates the correlation between mental health conditions and access to mental health resources among employees.  
 - `Correlation between the variables of Physical Activity and the Level of Stress.ipynb`: Examines the relationship between physical activity levels and stress levels, identifying potential patterns in the data.   
 - `Distribution Uniformity of Variables in the survey data.ipynb`: Analyzes the distribution of survey data variables, assessing uniformity and potential biases within the dataset.  
-- `Work Location Impact Analysis.ipynb`: Analyzes the impact of work location (remote, onsite, hybrid) on various indicators, such as work-life balance, productivity, and stress levels.  
+- `Work Location Impact Analysis.ipynb`: Analyzes the impact of work location (remote, onsite, hybrid) on various indicators, such as work-life balance, productivity, and stress levels.
+- `Impact of Remote Work on Social Isolation Ratings`: Analyzes the relationship between work location (remote vs. non-remote) and the Social Isolation Rating.    
 
 ## Example   
 *A Box-plot of Employee Age and Kolmogorov-Smirnov test (Age Distribution)*
