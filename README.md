@@ -106,5 +106,5 @@ For a detailed view of the methodology and analysis, refer to the respective fil
 📂 [GitHub Repository](https://github.com/Iryna-Bo/Work-and-Mental-Health)
 🌐 [Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/vizzes)  
 
-### LICENSE  
-This project is licensed under the MIT License - see the [LICENSE]([https://github.com/Iryna-Bo/Work-and-Mental-Health/blob/main/LICENSE) file for details.
+### License  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Iryna-Bo/Work-and-Mental-Health/blob/main/LICENSE) file for details.
