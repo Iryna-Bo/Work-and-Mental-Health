@@ -84,7 +84,7 @@ However, given that this analysis is for educational purposes, the quality of th
 <img src="images/Industries%20with%20the%20Highest%20Average%20Weekly%20Working%20Hours.png" alt="Industries with highest average working hours per week by region" width="500"/>  
 
 📌 For more details:    
-📊Tableau: *"Working Hours"*  
+📊Tableau: *"Working Hours_new"*  
 🗄️SQL: *"Working Hours"*  
 
 ### 4. Physical Activity  
