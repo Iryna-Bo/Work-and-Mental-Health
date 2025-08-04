@@ -81,7 +81,7 @@ Details:
 - **Working Hours:**
   The manufacturing sector has the highest global average of weekly working hours (40.24), with South America leading at 41.82 hours. In contrast, Europe’s IT sector has the lowest average (40.20), emphasizing work-life balance and efficiency.  
 Details:  
-📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkingHours_17316627781430/avg_work_h)  
+📊 [Interactive Tableau Visualization](https://public.tableau.com/app/profile/iryna.boiko/viz/WorkingHours_new/Averageweeklyworkinghours)    
 📁 [Download Tableau Workbook](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/tableau/Working%20Hours.twbx)  
 🗄️ [SQL File](https://github.com/Iryna-Bo/Work-and-Mental-Health/tree/main/sql/Working%20Hours.sql)
 - **Physical Activity:**
