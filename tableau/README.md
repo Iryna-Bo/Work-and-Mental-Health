@@ -8,4 +8,4 @@ This folder contains Tableau dashboards and a story that provide an interactive 
 - `Stress Level.twbx`: A dashboard analyzing the stress levels of employees based on various factors such as work location and demographics.   
 - `Work and Mental Health.twbx`: A dashboard exploring the relationship between work conditions and employees' mental health indicators.  
 - `Work Life Balance.twbx`: A dashboard assessing work-life balance trends across different regions, industries, and demographic groups.  
-- `Working Hours.twbx`: A dashboard visualizing industries with highest average weekly working hours by region.  
+- `Working Hours_new.twbx`: A dashboard visualizing industries with highest average weekly working hours by region.  
